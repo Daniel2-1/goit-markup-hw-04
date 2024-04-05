@@ -386,7 +386,7 @@ align-items: baseline;
 }
 
 .container-sm{
-    
+
 }
 
 .section-portfolio {
@@ -489,6 +489,41 @@ overflow: hidden;
 
 .footer-text {}
 
+.social-media{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+}
+
+.social-media-list{
+    display: flex;
+    gap: 16px;
+}
+
+.social-media-item{
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-logo{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-logo:hover {
+    background-color: #31d0aa;
+}
+.social-media-logo:focus {
+    background-color: #31d0aa;
+}
 
 
  
