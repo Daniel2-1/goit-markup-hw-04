@@ -438,7 +438,7 @@ overflow: hidden;
     
 }
 .paragraph-class:hover {
-    transform: translateY(0%);
+   
 }
 
 .container-portfolio-item{
@@ -456,7 +456,9 @@ overflow: hidden;
     margin-bottom: 8px;
 }
 
-
+.section-third-item:hover .paragraph-class {
+    transform: translateY(0%);
+}
 
 
 .footer {
