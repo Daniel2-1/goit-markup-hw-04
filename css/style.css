@@ -376,6 +376,19 @@ height: 40px;
 
 
 /* Section 3 */
+.container-footer{
+display: flex;
+align-items: baseline;
+}
+
+.footer-second-container{
+    margin-right: 120px;
+}
+
+.container-sm{
+    
+}
+
 .section-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
