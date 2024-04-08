@@ -59,11 +59,10 @@ address {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
-       
+
 }
 
 .header-div-class {
-
 display: flex;
 }
 
@@ -85,14 +84,10 @@ display: flex;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
     margin-right: 76px;  
     color: #404bbf;
     
-}
-
-
-
+    }
 
 .web {
     font-family: "Raleway", sans-serif;
@@ -122,12 +117,15 @@ display: flex;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+}
+
+.header-link-extra{
     position: relative;
-        color: #404bbf;
+        color: #2e2f42;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link::after {
+.header-link-extra::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -138,15 +136,16 @@ display: flex;
     border-radius: 2px;
 }
 
-.header-link:hover {
+
+    .header-link-extra:hover {
     color: #404bbf;
 }
 
-.header-link:focus {
+.header-link-extra:focus {
     color: #404bbf;
 }
 
-.header-link:active {
+.header-link-extra:active {
     color: inherit;
 }
 
