@@ -195,6 +195,8 @@ display: flex;
     text-align: center;
     color: #ffff;
     max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .hero-image-btn {
@@ -212,6 +214,8 @@ display: flex;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   margin: 0 auto;
+
 
 }
 
@@ -333,6 +337,7 @@ width: calc((100% - 72px) / 4);
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    padding-bottom: 8px;
 }
 
 .section-team-inside-list{
@@ -496,7 +501,7 @@ overflow: hidden;
 
 .web-footer {
     display: inline-block;
-    margin-bottom: 16px;
+    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
